@@ -1,0 +1,12 @@
+[package]
+name = "connect-proxy-rs"
+version = "0.1.0"
+authors = ["Douglas Adams <douglasryanadams@gmail.com>"]
+edition = "2018"
+description = "An HTTP Proxy that supports CONNECT (HTTP/1.1 and HTTP/2) and does DNS resolution through a single interface specified at launch"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "0.2.21", features = ["full"] }
+trust-dns = "0.19.5"
