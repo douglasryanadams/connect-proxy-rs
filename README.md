@@ -13,11 +13,11 @@ This proxy will read only the first line of the CONNECT message to make sure tha
 
 # Roadmap
 
-[x] Hello World
-[ ] Command line arguments to set listener port and IP
-[ ] Bind outgoing traffic to the same listener port and IP
-[ ] DNS Resolution from Proxy (Not Tested)
-[ ] DNS Resolution from Proxy to specific DNS Server
-[ ] DNS Resolution from the same listener port and IP
-[ ] More robust complete of other narrow things CONNECT can support (like Keepalive)
+- [x] Hello World
+- [ ] Command line arguments to set listener port and IP
+- [ ] Bind outgoing traffic to the same listener port and IP
+- [ ] DNS Resolution from Proxy (Not Tested)
+- [ ] DNS Resolution from Proxy to specific DNS Server
+- [ ] DNS Resolution from the same listener port and IP
+- [ ] More robust complete of other narrow things CONNECT can support (like Keepalive)
 
