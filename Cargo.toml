@@ -8,5 +8,8 @@ description = "An HTTP Proxy that supports CONNECT (HTTP/1.1 and HTTP/2) and doe
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+futures = "0.3.5"
 tokio = { version = "0.2.21", features = ["full"] }
-trust-dns = "0.19.5"
+trust-dns-client = "0.19.5"
+log = "0.4.8"
+pretty_env_logger = "0.4.0"
